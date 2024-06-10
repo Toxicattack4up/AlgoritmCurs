@@ -1,4 +1,3 @@
-// HashTable.cpp
 #include "HashTable.h"
 #include "Client.h"
 
