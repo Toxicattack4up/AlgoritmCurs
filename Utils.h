@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
 
-struct TreeNode {
+struct TreeNode 
+{
     int key;
     TreeNode* left;
     TreeNode* right;

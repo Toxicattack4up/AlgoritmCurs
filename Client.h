@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
 
-class Client {
+class Client 
+{
 private:
     int id;
     std::string name;

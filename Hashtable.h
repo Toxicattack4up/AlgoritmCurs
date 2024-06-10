@@ -2,9 +2,11 @@
 #include "Client.h"
 #include <stdexcept>
 
-class HashTable {
+class HashTable 
+{
 private:
-    struct HashNode {
+    struct HashNode 
+    {
         Client data;
         bool occupied;
         HashNode() : occupied(false) {}

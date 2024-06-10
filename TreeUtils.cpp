@@ -2,7 +2,8 @@
 #include <iostream>
 #include "Utils.h"
 
-void preorderTraversal(TreeNode* node) {
+void preorderTraversal(TreeNode* node) 
+{
     if (node == nullptr) return;
 
     std::cout << node->key << " ";

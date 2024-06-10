@@ -4,8 +4,10 @@
 #include <ctime>
 #include <stdexcept>
 
-class SkipList {
-    struct Node {
+class SkipList 
+{
+    struct Node 
+    {
         int key;
         Client data;
         Node** forward;
