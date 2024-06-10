@@ -10,4 +10,3 @@ void preorderTraversal(TreeNode* node)
     preorderTraversal(node->left);
     preorderTraversal(node->right);
 }
- 
